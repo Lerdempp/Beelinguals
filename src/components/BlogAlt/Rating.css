@@ -1,0 +1,81 @@
+/* Rating Wrapper */
+.rating-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: flex-start;
+}
+
+.rating-label {
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--text-strong-950, #141414);
+}
+
+.rating-container {
+  display: flex;
+  gap: 12px;
+}
+
+/* Star Container */
+.star-container {
+  display: flex;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px; /* Yuvarlatılmış köşeler */
+  border: 1px solid var(--stroke-soft-200, #E5E5E5);
+  background: var(--bg-white, #FFF);
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Hafif gölge */
+  cursor: pointer;
+  transition: all 0.3s ease-in-out; /* Geçiş efektleri */
+}
+
+/* Hover Durumu */
+.star-container:hover {
+  background: var(--bg-hover, #F4F4F4);
+  border: 1px solid var(--primary-hover, #FFD54F);
+  transform: scale(1.1); /* Hafif büyüme efekti */
+}
+
+/* Aktif Durum */
+.star-container.active {
+  background: var(--bg-active, #FFFDE7);
+  border: 1px solid var(--primary-hover, #FFC107);
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.15); /* Daha belirgin gölge */
+}
+
+/* Star Icon */
+.star-icon {
+  width: 24px;
+  height: 24px;
+}
+
+.star-path {
+  fill: #e5e7eb; /* Varsayılan yıldız rengi */
+  transition: fill 0.3s ease-in-out; /* Renk geçişi */
+}
+
+.star-container.active .star-path {
+  fill: #ffc107; /* Aktif yıldız rengi */
+}
+
+.star-container:hover .star-path {
+  fill: #fbc02d; /* Hover yıldız rengi */
+}
+
+/* Responsive Tasarım */
+@media (max-width: 768px) {
+  .rating-container {
+    gap: 8px;
+  }
+
+  .star-container {
+    padding: 8px;
+  }
+
+  .star-icon {
+    width: 20px;
+    height: 20px;
+  }
+}

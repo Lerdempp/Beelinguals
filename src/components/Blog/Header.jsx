@@ -108,7 +108,7 @@ const HeaderContainer = () => {
             letterSpacing: "-0.084px",
           }}
         >
-          Lorem impsum dolor sit amet
+          Çeviri Dünyasından En Son Haberler ve Makaleler
         </span>
       </div>
     </div>

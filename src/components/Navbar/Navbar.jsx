@@ -58,7 +58,7 @@ const Navbar = () => {
         <Link to="/words" style={linkStyle(isActive("/words"))}>
           Terminology Exercises
         </Link>
-        <Link to="/blog-details" style={linkStyle(isActive("/blog-details"))}>
+        <Link to="/#blog-section" style={linkStyle(isActive("/"))}>
           Blog
         </Link>
       </div>

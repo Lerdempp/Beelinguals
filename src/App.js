@@ -1,5 +1,5 @@
-import React from "react";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import React, { useEffect } from "react";
+import { BrowserRouter as Router, Routes, Route, useLocation } from "react-router-dom";
 import Background from "./components/Background";
 import Navbar from "./components/Navbar/Navbar";
 import Footer from "./components/Footer";
@@ -12,11 +12,22 @@ import Words from "./components/Words";
 import ScrollToTop from "./components/ScrollToTop"; // ScrollToTop bileşeni
 import "./App.css";
 
-const App = () => {
+// Router içinde kullanılacak yeni bileşen
+const AppContent = () => {
+  const location = useLocation();
+
+  useEffect(() => {
+    if (location.hash) {
+      const element = document.querySelector(location.hash);
+      if (element) {
+        element.scrollIntoView({ behavior: 'smooth' });
+      }
+    }
+  }, [location]);
+
   return (
-    <Router>
-      {/* ScrollToTop bileşeni her yönlendirmede en üstte başlatır */}
-      <ScrollToTop /> 
+    <>
+      <ScrollToTop />
       <Background>
         <Navbar />
         <Routes>
@@ -36,6 +47,14 @@ const App = () => {
           <Route path="/words" element={<Words />} />
         </Routes>
       </Background>
+    </>
+  );
+};
+
+const App = () => {
+  return (
+    <Router>
+      <AppContent />
     </Router>
   );
 };

@@ -10,7 +10,7 @@ const Comments = () => {
   useEffect(() => {
     const fetchComments = async () => {
       try {
-        const response = await axios.get("http://localhost:5000/api/comments");
+        const response = await axios.get("https://beelinguals-backend.onrender.com/api/comments");
         console.log(response.data); // Burada gelen veriyi console'a yazdırıyoruz
         setComments(response.data);
       } catch (error) {

@@ -8,32 +8,32 @@ import CommentSection from "./CommentSection.jsx";
 import { blogData } from "../../data/blogData";
 
 const SUBHEADINGS = [
-  "Çevirmenlikte Başarıya Giden Yol: Sürekli Gelişim",
-  "Daha Net Bir Yol: Yöneleceğiniz Alanı Belirleyin",
-  "Yeni Dünyanın Yeni Teknolojileri: Çeviri Araçları ve Bilgisayar Destekli Çeviri",
-  "Belki de En Önemlisi Deneyim Kazanmak: Nereden Başlamalıyım?",
-  "Her Şey Hazır, Sıra İş Bulmakta",
-  "Zaman Yönetimi",
-  "Stresle Başa Çıkma",
-  "Ekip Çalışması",
-  "Yeni Başlayanlar İçin Korkutucu Olabilir, Ama...",
-  "Freelance Ne Demek? Çeviri Sektöründe Yeri Nedir?",
-  "Hangi Alanlarda Freelance Çeviri Yapılır?",
-  "En Belirgin Avantajları: Esneklik ve Bağımsızlık",
-  "Evden Çalışma İmkânı",
-  "Zaman Yönetimi: Hem Özgürlük Hem Sorumluluk",
-  "Süreklilik ve Güvence Eksikliği",
-  "Cesaretin Varsa Gerisi Gelir!",
-  "Makine Çevirisi Nerede İşe Yarar?",
-  "Makine Çevirisinin Yetersiz Kaldığı Durumlar",
-  "İnsan Çevirisi Neden Hâlâ Önemli?",
-  "Makine Çevirisi Vs. İnsan Çevirisi: Hangisi Daha İyi?",
-  "Pepsi'nin Mezardan Gelen Hatası",
-  "🍗 KFC'nin Parmak Isırtan (!) Çeviri Hatası",
-  "Colgate, Arjantin'de \"Kendini As\" Mı Demek?",
-  "Yerelleştirme ve Yabancılaştırma Nedir?",
-  "Film İsimlerinde Kültürel Uyum Arayışı",
-  "Her Tercih Bir Strateji: Merak Unsuru ve Hedef Kitle"
+  'Çevirmenlikte Başarıya Giden Yol: Sürekli Gelişim',
+  'Daha Net Bir Yol: Yöneleceğiniz Alanı Belirleyin',
+  'Yeni Dünyanın Yeni Teknolojileri: Çeviri Araçları ve Bilgisayar Destekli Çeviri',
+  'Belki de En Önemlisi Deneyim Kazanmak: Nereden Başlamalıyım?',
+  'Her Şey Hazır, Sıra İş Bulmakta',
+  'Zaman Yönetimi',
+  'Stresle Başa Çıkma',
+  'Ekip Çalışması',
+  'Yeni Başlayanlar İçin Korkutucu Olabilir, Ama...',
+  'Freelance Ne Demek? Çeviri Sektöründe Yeri Nedir?',
+  'Hangi Alanlarda Freelance Çeviri Yapılır?',
+  'En Belirgin Avantajları: Esneklik ve Bağımsızlık',
+  'Evden Çalışma İmkânı',
+  'Zaman Yönetimi: Hem Özgürlük Hem Sorumluluk',
+  'Süreklilik ve Güvence Eksikliği',
+  'Cesaretin Varsa Gerisi Gelir!',
+  'Makine Çevirisi Nerede İşe Yarar?',
+  'Makine Çevirisinin Yetersiz Kaldığı Durumlar',
+  'İnsan Çevirisi Neden Hâlâ Önemli?',
+  'Makine Çevirisi Vs. İnsan Çevirisi: Hangisi Daha İyi?',
+  'Pepsi\'nin Mezardan Gelen Hatası',
+  '🍗 KFC\'nin Parmak Isırtan (!) Çeviri Hatası',
+  'Colgate, Arjantin\'de "Kendini As" Mı Demek?',
+  'Yerelleştirme ve Yabancılaştırma Nedir?',
+  'Film İsimlerinde Kültürel Uyum Arayışı',
+  'Her Tercih Bir Strateji: Merak Unsuru ve Hedef Kitle'
 ];
 
 function renderContentWithStyledSubheadings(content) {
@@ -43,7 +43,8 @@ function renderContentWithStyledSubheadings(content) {
   const elements = [];
 
   function normalize(str) {
-    return str.trim().replace(/\s+/g, ' ').toLowerCase();
+    // Tırnak işaretlerini, ters eğik çizgileri ve boşlukları temizleyerek normalize et
+    return str.replace(/[\s\'"\\\\]/g, '').toLowerCase();
   }
 
   function flushList() {
@@ -239,8 +240,9 @@ const BlogAlt = () => {
       </div>
       {/* Yorum Bölümü */}
       <div style={{ width: "100%", maxWidth: "1148px", margin: "0 auto 48px auto" }}>
-        <Comments />
         <CommentSection />
+        <div style={{ height: "15px" }}></div>
+        <Comments />
       </div>
       <Footer />
     </>

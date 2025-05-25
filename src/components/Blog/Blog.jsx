@@ -5,6 +5,7 @@ import Content from "./Content"; // Content'i import ediyoruz
 const Blog = () => {
   return (
     <div
+      id="blog-section"
       style={{
         position: "absolute",
         top: "988px",

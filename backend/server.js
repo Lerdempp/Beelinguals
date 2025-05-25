@@ -4,7 +4,9 @@ const app = express();
 
 // Middleware
 app.use(express.json());
-app.use(cors());
+app.use(cors({
+  origin: ['https://beelinguals.com', 'http://localhost:3000']
+}));
 
 // Geçici yorum veritabanı (array olarak tanımlandı)
 let comments = [

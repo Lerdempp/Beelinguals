@@ -10,15 +10,7 @@ app.use(cors({
 
 // Geçici yorum veritabanı (array olarak tanımlandı)
 let comments = [
-  {
-    _id: '1',
-    name: 'Test User',
-    email: 'test@example.com',
-    subject: 'Test Subject',
-    comment: 'Test Comment',
-    rating: 5,
-    createdAt: new Date().toISOString()
-  }
+  // Test yorumu kaldırıldı
 ];
 
 // Yorumları getir

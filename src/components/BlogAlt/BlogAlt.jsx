@@ -241,7 +241,7 @@ const BlogAlt = () => {
       {/* Yorum Bölümü */}
       <div style={{ width: "100%", maxWidth: "1148px", margin: "0 auto 48px auto" }}>
         <CommentSection />
-        <div style={{ height: "15px" }}></div>
+        <div style={{ height: "10px" }}></div>
         <Comments />
       </div>
       <Footer />

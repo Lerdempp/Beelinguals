@@ -66,7 +66,7 @@ const Modal = ({ isOpen, onClose, addComment }) => {
   
     try {
       const response = await axios.post(
-        "http://localhost:5000/api/comments", // Backend endpoint
+        "https://beelinguals-backend.onrender.com/api/comments", // Backend endpoint
         newComment
       );
       console.log("API yanıtı:", response.data);

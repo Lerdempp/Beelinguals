@@ -11,6 +11,7 @@ const Header = () => {
         alignSelf: "stretch",
         width: "956px",
         height: "154px",
+        margin: "0 auto",
       }}
     >
       {/* Badge Container (Header'ın Child'ı) */}
@@ -29,7 +30,8 @@ const Header = () => {
           style={{
             width: "416px",
             height: "1px",
-            background: "linear-gradient(90deg, rgba(229, 231, 235, 0.00) 0%, #E5E7EB 100%)",
+            background:
+              "linear-gradient(90deg, rgba(229, 231, 235, 0.00) 0%, #E5E7EB 100%)",
           }}
         />
 
@@ -69,7 +71,8 @@ const Header = () => {
           style={{
             width: "416px",
             height: "1px",
-            background: "linear-gradient(90deg, #E5E7EB 0%, rgba(229, 231, 235, 0.00) 100%)",
+            background:
+              "linear-gradient(90deg, #E5E7EB 0%, rgba(229, 231, 235, 0.00) 100%)",
           }}
         />
       </div>

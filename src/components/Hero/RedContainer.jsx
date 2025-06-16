@@ -55,7 +55,7 @@ const RedContainer = () => {
               letterSpacing: "-0.084px",
             }}
           >
-            Planning, tracking and sheets
+            Worksheets, blogs and exercises
           </span>
         </div>
         <div
@@ -78,7 +78,7 @@ const RedContainer = () => {
               letterSpacing: "-0.084px",
             }}
           >
-            More production less dreaming
+            Translate better grow faster
           </span>
           <span
             style={{
@@ -92,8 +92,8 @@ const RedContainer = () => {
               letterSpacing: "-0.176px",
             }}
           >
-            No more wishing - with intuitive features and smart organization,
-            your goals are closer than ever
+            Translation isn’t just about knowledge, it's a process — and we make
+            that process easier for you.
           </span>
         </div>
       </div>

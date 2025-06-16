@@ -1,8 +1,10 @@
 export const blogData = [
   {
     id: 1,
+    cover: "/blog/1-cevirmenlik-nedir-ne-degildir.png",
     title: "Çevirmenlik: Nedir Ne Değildir?",
     readTime: "10 minutes read",
+    description: "Çevirmenliğin temel tanımı ve kapsamı.",
     content: `Çevirmenlik, her iki elinde iki ayrı kültürü tutmak ve bu kültürleri bir araya getirme gayesi taşımaktır. Dolayısıyla çevirmen yalnızca dilin değil fikirlerin, düşüncelerin ve bağlamın da taşıyıcısıdır. Bu yazıda, bu yolculuğa adım atmış bir çevirmen olarak işinize yarayacak ipuçlarını paylaşacağız.
 Çevirmenlikte Başarıya Giden Yol: Sürekli Gelişim
 Çevirmenlik, yalnızca kendi içinde var olan bir meslek değil, aynı zamanda farklı sektörlerle iç içe olan ve onlardan beslenen bir alandır. Günümüz dünyasında her şeyin hızlı olması, yapay zekanın inkâr edilemez etkisi ve her alanda var olan rekabet ortamı bu meslekte ilerlemek isteyenler için zorluklar oluşturmaktadır. Peki bu zorlukları en aza indirgemek mümkün mü?
@@ -22,22 +24,25 @@ Terim yönetimi bir diğer avantajınızdır. Çeviri araçlarında kolaylıkla 
 Belki de En Önemlisi Deneyim Kazanmak: Nereden Başlamalıyım?
 Bugün her üniversite mezunu "deneyimli eleman" tabiriyle karşı karşıya kalıyor. Bu durumla karşılaştığımızda geri adım atmak yerine "zaten hazırlıklıydım" demek tohumları bizzat üniversite yıllarında atarak mümkün olacaktır. Bir üniversite öğrencisi olarak en geç 3. Sınıfta kariyerinizle alakalı ciddiyetine varmanız gereken durumlar ortaya çıkacak.
 Çeviri kariyerinize adım atarken sağlam adımlarla ilerlemenin en iyi yollarından birisi staj yapmaktır. Staj sizler için mesleğinizi tanıyacağınız, sevip sevmediğinizi test edeceğiniz ve büyük deneyimler kazanabileceğiniz bir fırsattır. Stajı kendi içinde iyi değerlendirmenizi tavsiye etmekle birlikte daha fazlasını hedeflemeniz oldukça önemlidir.
-Staj süresince aktif olmanız, farklı türde çeviriler denemeniz ve bunların yanı sıra diğer önemli becerileri edinmeye çalışmanız ilerisi için size büyük avantajlar sağlayacaktır. Zaman yönetimi, stresle başa çıkma ve ekip çalışması diğer önemli becerilere örnek olabilir. Bu becerilere ayrıntılı olarak baktığımız yazımızı buradan inceleyebilirsiniz. Bütün bunları edindiğiniz bir staj deneyiminden sonra kuşkusuz bir şeyler size daha kolay gelecektir.
+Staj süresince aktif olmanız, farklı türde çeviriler denemeniz ve bunların yanı sıra diğer önemli becerileri edinmeye çalışmanız ilerisi için size büyük avantajlar sağlayacaktır. Zaman yönetimi, stresle başa çıkma ve ekip çalışması diğer önemli becerilere örnek olabilir. Bu becerilere ayrıntılı olarak baktığımız yazımızı <a href="/blog-details/2">buradan</a> inceleyebilirsiniz. Bütün bunları edindiğiniz bir staj deneyiminden sonra kuşkusuz bir şeyler size daha kolay gelecektir.
 Peki staj dışındaki opsiyonlarınız neler olabilir? Gönüllü yaptığınız işler bazılarınıza zor gelse de gelişim yolunda edinilmesi gereken becerileri içeriyor. Sadece gelişmeyi ve öğrenmeyi hedeflediğinizde sandığınızdan daha fazla şey öğrenerek yola devam edersiniz.
 Bir diğeri freelance çeviri işleri almaya çalışmak olabilir. Maddi getirisini bir kenara bıraktığınızda yine iş öğrenmek ve bir portföy oluşturmak yolunda sizlere fayda sağlayacaktır. Bu kısımda hem çeviri becerilerinizi geliştirirsiniz hem de daha ciddi bir şekilde müşteri ilişkilerinden haberdar olursunuz ve ileride karşılaşacağınız durumlara bir temel oluşturursunuz.
 Her Şey Hazır, Sıra İş Bulmakta
 Üniversite yıllarınızı doğru değerlendirdiğinizde iş bulma kısmı kulağa o kadar da korkutucu gelmese gerek. Ama öyle olmayabilir veya her şey yolunda gitmeyebilir. Her iki senaryoda da neler yapabilirsiniz bir göz atalım.
 Eğer doğru zamanda doğru kararlar alıp doğru yerlerde bulunduysanız profesyonel ağ kurma kısmında bir adım öndesiniz demektir. Bu da iş kapılarının size biraz daha kolay açılmasını sağlar ve fırsatları yakalamanız daha kolay olur. İş dünyasında beklenmedik olaylara da çokça yer olduğunu düşünürsek önlem almak ve nereden başlayacağını bilmek bir avantaj olacaktır.
 Öncelikle sizi vermeniz gereken bir karar bekliyor. Freelance çalışmaya mı yoksa kurumsal çalışmaya mı yatkınsınız? Burada hayat tarzınız devreye giriyor. Daha rahat ama belirsiz bir iş hayatı mı, daha sıkı ve düzenli bir iş hayatı mı?
-Eğer rahat olmak istiyorum ve çok çalışıp açığı kapatırım diyorsanız çevirmenler için çeviri işleri sunan platformlara göz atabilirsiniz. Bu kısımda öz disiplin sağlamak ve güvenilir bir portfolyo yaratmak önemli. Kendinizi fark edilir ve tercih edilir kılmak için bireysel çaba göstermelisiniz. Freelance çalışmanın avantajlarını ve zorluklarını konuştuğumuz yazımıza buradan ulaşabilirsiniz.
+Eğer rahat olmak istiyorum ve çok çalışıp açığı kapatırım diyorsanız çevirmenler için çeviri işleri sunan platformlara göz atabilirsiniz. Bu kısımda öz disiplin sağlamak ve güvenilir bir portfolyo yaratmak önemli. Kendinizi fark edilir ve tercih edilir kılmak için bireysel çaba göstermelisiniz. Freelance çalışmanın avantajlarını ve zorluklarını konuştuğumuz yazımıza <a href="/blog-details/3">buradan</a> ulaşabilirsiniz.
 Düzenli bir hayat düzenli bir gelir mottosu size daha uygunsa kurumsal hayat sizi bekler. İyi güzel ama çevirmenlik serüveninizi sürdüreceğiniz ajansları veya kurumları nasıl bulabilirsiniz? İlk etapta devreye ağ kurmanıza yardımcı olacak platformlar çıkıyor. Bu platformlarda kendinizi görünür kılarak başlayabilir, parçası olmak istediğiniz kurumların politikalarını takip edebilir ve iş ilanlarını inceleyebilirsiniz. Potansiyel gördükleri çevirmen adayında aradıkları özelliklere yoğunlaşabilir hedefe yönelik bir çaba sarf edebilirsiniz. Bir diğeri ise çeviri dernekleri olabilir. Ağ kurmanın keyifli yollarından birisidir. Hem gönüllü işlere ortak olabileceğiniz hem de iş fırsatlarından haberdar olabileceğiniz bir yol sunarlar.
 Uzaktan bakıldığında emek isteyen bu yolculuk beraberinde sürekli öğrenmeyi, kendini aşmayı ve pes etmemeyi getiriyor. Gerek şimdinin gerekse geleceğin çevirmenleri olarak değişime açık olmayı ve ayak uydurmayı unutmayınız. 
-`
+`,
   },
   {
     id: 2,
+    cover:
+      "/blog/2-kariyerinizin-her-adiminda-sizi-artiya-gecirecek-beceriler.png",
     title: "Kariyerinizin Her Adımında Sizi Artıya Geçirecek Beceriler",
     readTime: "8 minutes read",
+    description: "Çevirmenlikte öne çıkmanızı sağlayacak beceriler.",
     content: `Öğrencilik yıllarınızda temellerini attığınız, mezuniyet sonrası ise hızla içine çekildiğiniz kariyer yolculuğu, kişisel yeterliliklerin yanı sıra bazı evrensel becerileri de gerektirir. Çevirmenlik gibi dinamik bir alan da beraberinde zaman yönetimi, stres ile başa çıkma ve ekip çalışması gibi becerileri gerekli kılar. Bu yazımızda bu becerilerin neden önemli olduğunu ve nasıl geliştirebileceğinizi ele alacağız.
 Zaman Yönetimi
 Zaman yönetimi çevirmenlik mesleği için ilk sıraya konmayı hak eden oldukça önemli bir yeterliliktir. Zaman bizler için her şeydir. İşi alırsınız ve ilk kontrol ettiğiniz şey teslim tarihi olur; çünkü iyi bilirsiniz ki müşteri beklemez ve çoğu zaman birden fazla işi aynı anda yürütmeniz gerekir.
@@ -52,12 +57,14 @@ Ekip Çalışması
 Daha önce bir ekip çalışması içerisinde bulunanlar bilir ki en büyük zorluklardan biri her kafadan bir ses çıkmasıdır. Bizim mesleğimizde ise ortaya tek bir sonuç çıkması gerekir ve istesek de istemesek de ekip olmak zorunda kalırız. Bir çevirmen olarak görevimiz sadece bir metni çevirmek değil; gelen geri dönüşleri değerlendirip düzeltmeler yapmak ve çok daha büyük bir ekibin parçası olarak çalışmaktır. Bu konuda kendinizi daha sabırlı, anlayışlı ve öz eleştiri konusunda yeterli kılmamız gerekmektedir.
 Tabii ki bu sürecin olumlu tarafları da çoktur. Çalışmaya başladığınızda anlayacaksınız ki aslında ekip olarak çalışmak üzerinizden birçok yükü almakla kalmayıp sizi bir birey olarak geliştirecektir. Hem insan ilişkileriniz gelişecek hem de her şeyi tek başınıza sırtlanmadığınız için işler biraz daha halledilebilir hale gelecektir.
 Bir çevirmen veya çevirmen adayı olarak daha önce de dediğimiz gibi siz kendinizi bazı olasılıklara karşı hazırladığınız durumda başarısız olma riskiniz çok azdır. Bu olumsuzluklar yaşandığında "Şimdi ne yapacağım?" demek yerine onları öngörmek ve bir adım önde olmak sizi ileriye taşıyacaktır. Bugünün veya geleceğin çevirmenleri olarak kendinizi yetiştirmek birincil hedeflerinizden olmalıdır.
-`
+`,
   },
   {
     id: 3,
+    cover: "/blog/3-freelance-calismanin-avantajlari-ve-zorluklari.png",
     title: "Freelance Çalışmanın Avantajları ve Zorlukları",
     readTime: "7 minutes read",
+    description: "Freelance Çalışmanın Avantajları ve Zorlukları",
     content: `Yeni Başlayanlar İçin Korkutucu Olabilir, Ama...
 Bazen bir alanda çalışmaya başlamak ve piyasaya atılmak bize tahmin ettiğimizden daha korkutucu ve zorlayıcı gelebilir. Çeviri alanında henüz öğrenciyken veya çeviriye ilgi duyan ve bu alana yönelmek isteyenlerin ilk adımı olarak Freelance işlerin ve çalışma düzeninin bazı avantajları ve zorlukları olduğunu söylemek mümkün. Öncelikle freelance derken tam olarak neyi kastediyoruz? Çeviri sektörü için ne anlam ifade ediyor? Bu sorulara bazı yanıtlar arayalım.
 Freelance Ne Demek? Çeviri Sektöründe Yeri Nedir?
@@ -73,12 +80,14 @@ Bu avantajların yanı sıra Freelance bir çevirmen olarak çalışmanın elbet
 Süreklilik ve Güvence Eksikliği
 Aynı zamanda Freelance çevirinin bir devamlılık vadetmemesi bazen zorluklar yaratabilir. Tam zamanlı işlerin aksine, Freelance işlerde çevirmen kimi dönem birçok iş teklifi alırken kimi dönem tam tersi olabilir. Bu nedenle başka bir maddi dayanağa ve iyi bir para yönetimine ihtiyaç duyabilirsiniz. 
 Cesaretin Varsa Gerisi Gelir!
-Çeviri sektörüne ilk kez adım atacak biri için bütün bunlar korkutucu gelebilir. Ama bir adım attığınızda gerisinin geleceğini göreceksiniz. Önemli olan kendinize olan inancınızı kaybetmemeniz ve potansiyelinizin farkında olmanız!.`
+Çeviri sektörüne ilk kez adım atacak biri için bütün bunlar korkutucu gelebilir. Ama bir adım attığınızda gerisinin geleceğini göreceksiniz. Önemli olan kendinize olan inancınızı kaybetmemeniz ve potansiyelinizin farkında olmanız!.`,
   },
   {
     id: 4,
-    title: "Makine Çevirisi Vs. İnsan Çevirisi Hangisi Daha İyi",
+    cover: "/blog/4-makine-cevirisi-vs-i-nsan-cevirisi-hangisi-daha-iyi.png",
+    title: "Makine Çevirisi Vs. İnsan Çevirisi: Hangisi Daha İyi?",
     readTime: "9 minutes read",
+    description: "Makine ve insan çevirisinin karşılaştırılması.",
     content: `Makine Çevirisi Vs. İnsan Çevirisi: Hangisi Daha İyi?
 
 Teknolojinin her geçen gün daha da gelişmesiyle birlikte çeviri dünyasında büyük bir fikir ayrılığı baş gösteriyor: Makine çevirisi mi yoksa insan çevirisi mi daha iyi? Google Translate, ChatGPT, DeepL ve diğer çeviri araçları her geçen gün gelişiyor, ama hâlâ bir insan kadar başarılı olabilirler mi? Gelin, bunun üzerine biraz konuşalım.
@@ -112,12 +121,16 @@ Bu yüzden resmî belgeler, edebi eserler, pazarlama kampanyaları veya kültür
 Özetle, makine çevirileri yardımcı bir araç olarak harika ama iş profesyonelliğe geldiğinde bir insan dokunuşu her zaman şart.
 
 Sen ne düşünüyorsun? Makine çevirilerine güveniyor musun, yoksa işin içine insan girmeden çeviri tam olmaz mı diyorsun? Yorumlarını bekliyorum! 😊
-`
+`,
   },
   {
     id: 5,
-    title: "Reklam Sloganlarında Kültürel Çatışmalar: Küçük Hatalar, Büyük Sonuçlar",
+    cover:
+      "/blog/5-reklam-sloganlarinda-kulturel-catismalar-kucuk-hatalar-buyuk-sonuclar.png",
+    title:
+      "Reklam Sloganlarında Kültürel Çatışmalar: Küçük Hatalar, Büyük Sonuçlar",
     readTime: "8 minutes read",
+    description: "Reklam çevirilerinde kültürel farklılıkların etkisi.",
     content: `Çeviri, diller arasında köprü kurarak iletişimi kolaylaştırsa da bazen bu köprü, yanlış bir kelimeyle yerle bir olabilir. Kültürel farklılıklara dikkat edilmediğinde bazı çeviri hataları kaçınılmaz olabiliyor. Bazı global şirketler, ürünlerini yeni pazarlara sunarken çeviri hatalarının kurbanı olmuşlar. Gelin, markaların yaptığı en komik çeviri hatalarına birlikte göz atalım!
 Pepsi'nin Mezardan Gelen Hatası
 
@@ -133,12 +146,16 @@ Bazı sosyal medya paylaşımlarında ve forumlarda "Colgate" kelimesi Arjantin 
 Aslında, "Colgate" kelimesi, Arjantin İspanyolcasında "kendini as" anlamına gelebilir, ancak bu daha çok şaka yaparken kullanılan bir ifade ve "Col GA te" şeklinde telaffuz ediliyor. Bu, diş macununun ismiyle aynı şekilde okunuyor ve bu ismin "colgarse" (kendini asmak) fiiliyle benzediği için bir kelime oyununu ortaya çıkarıyor.
 Hem Arjantin hem de Şili'de insanlar genellikle Colgate markasını İngilizce okunduğu şekilde telaffuz ediyor. Aslında bunun sebebi de televizyon reklamlarında markanın İngilizce okunuşunun kullanılması. 
 Sonuçta bu şakalara rağmen, Colgate diş macunu, Arjantin'de yıllardır satılıyor ve büyük bir satış problemi yaşanmadığı için, marka hala oldukça popüler gibi görünüyor. Reklamın iyisi kötüsü olmaz derler!
-`
+`,
   },
   {
     id: 6,
-    title: "Çeviride Yerelleştirme ve Yabancılaştırma: Film İsimleri Çevirisi Üzerine Bir Bakış",
+    cover:
+      "/blog/6-ceviride-yerellestirme-ve-yabancilastirma-film-i-simleri-cevirisi-uzerine-bir-bakis.png",
+    title:
+      "Çeviride Yerelleştirme ve Yabancılaştırma: Film İsimleri Çevirisi Üzerine Bir Bakış",
     readTime: "10 minutes read",
+    description: "Film isimlerinde yerelleştirme ve yabancılaştırma örnekleri.",
     content: `Yerelleştirme ve Yabancılaştırma Nedir?
 Çeviride en dikkat çeken ve fikir ayrılığına neden olan bir konu da yerelleştirme(localization) ve yabancılaştırma(foreignization). Özellikle kaynak ve erek kültür arasında farkın çok olduğu dil çiftlerinde, çevrilecek içeriğin erek kültürde anlaşılır ve bir anlam ifade ediyor olması için yerelleştirme şart. Yerelleştirme, kaynak dildeki öğeleri hedef kültüre uyarlayarak anlam kaybını önlemeyi amaçlar. Film ve yemek isimleri, kültürel referanslar gibi unsurların çevirisinde kullandığımız bir strateji olduğunu söyleyebiliriz.
 Öte yandan, bazı durumlarda ise yabancılaştırma tercih edilerek borrowing(ödünç alma) gibi bazı çeviri politikaları benimsenebiliyor. Yabancılaştırma, hedef kültürün alışık olmadığı unsurların kaynak dilin özgünlüğünü koruyarak çevrilmesi anlamına geliyor. Bu strateji, kaynak metnin diline ait özgün özellikleri vurgulayarak kültürel farklılıkları daha belirgin hale getiriyor. Daha somut bir anlam ifade etmesi için bu konuyu bazı örnekler üzerinden inceleyelim.
@@ -156,6 +173,91 @@ Son olarak sizlere de bir bilmecem var. Bu bilmece de bir video oyununun içeris
 Bir harfini alırsan Büdü'nün ev arkadaşına dönüşen sayı kaçtır?
 Cevaplarınızı bekliyoruz!
 
-`
-  }
-]; 
+`,
+  },
+  {
+    id: 7,
+    cover:
+      "/blog/7-roportaj-aycan-dertli-ile-ceviri-ve-meslek-yolculugu-uzerine.png",
+    title: "Röportaj: Aycan Dertli ile Çeviri ve Meslek Yolculuğu Üzerine",
+    description:
+      "Çevirmen Aycan Dertli ile çeviri deneyimleri, kariyer yolculuğu ve sektör üzerine samimi bir söyleşi.",
+    readTime: "12 minutes read",
+    content: `Her çevirmenin hikâyesi kendine özgü yollarla şekillenir. Kimi zaman akademik metinlerle, kimi zaman gönüllü projelerle başlar bu yolculuk. Bu röportajımızda, eğitim hayatından iş yaşamına uzanan sürecinde çeşitli alanlarda birikim kazanmış, çok yönlü bakış açısıyla dikkat çeken Ege Üniversitesi İngilizce Mütercim Tercümanlık mezunlarından Aycan Dertli ile sohbet ettik. Kendisiyle mesleki deneyimlerini, öğrendiklerini ve bu yolculukta kendine kattıklarını konuştuk.
+
+1. Çeviriyle ne zaman tanıştınız? Şimdiye kadar çevirinin hangi alanlarında deneyim kazandınız?
+Çeviriyle ilk olarak lise yıllarımda tanıştım. Üniversiteyle birlikte bu ilgim daha da derinleşti. Akademik metinler, edebi çeviriler, altyazı ve teknik çeviri gibi pek çok alanda deneyim kazandım.
+
+2. Bu alanlarda edindiğiniz tecrübeler çeviriye olan bakış açınızı nasıl etkiledi?
+Her alanın farklı bir yaklaşım ve özen gerektirdiğini fark ettim. Çeviri sadece dil bilgisi değil, kültürler arası bir köprü kurmak aslında. Bu farkındalık bakış açımı oldukça genişletti. Ayrıca çevirmen olmanın iki mesleği aynı anda yapmak olduğunu da keşfettim. Tıp çevirmeni olmak aynı zamanda çok iyi bir sağlık bilgisi gerektiriyor, hukuk ve diğer alan çevirileri için de durum aynı.
+
+3. Sizin için unutulmaz ve hayatınızı değiştiren bir çeviri projesi oldu mu? Varsa detaylarını paylaşabilir misiniz?
+Üniversitedeyken bir sivil toplum kuruluşu için gönüllü dil eğitimi ve çevirmenlik yapmıştım. Çevirdiğim metinlerin gerçekten bir fark yarattığını görmek beni çok etkiledi. Tanıştığım insanların hayatına dokunduğumu hissettim. O projeden sonra çevirinin toplumsal etkisine dair daha güçlü bir motivasyon hissettim.
+
+4. Geriye dönüp üniversite yıllarınıza bakacak olsanız "iyi ki yapmışım" veya "keşke yapmasaydım" dediğiniz şeyler var mı?
+"İyi ki üniversite boyunca farklı alanlarda çeviri denemişim" derim. Ancak bazı projelerde emeğimin karşılığını alamadığım oldu, keşke o teklifleri kabul etmeseydim dediğim zamanlar da oldu.
+
+5. Birden fazla sektörde çalışmış biri olarak, çeviri yapmak isteyen ama kariyerinde farklı alanlara da yönelen kişilere ne önerirsiniz?
+Kendinizi tek bir alana sıkıştırmayın. Dil becerisi birçok sektörde işe yarıyor. Farklı alanlarda deneyim kazanmak sizi hem daha güçlü bir çevirmen yapar hem de yeni kapılar açabilir.
+
+6. Türkiye'de çevirmenlik mesleğinin konumunu nasıl görüyorsunuz? Hangi alanlarda gelişime açık olduğunu düşünüyorsunuz?
+Ne yazık ki birçok yeni çevirmen emeklerinin karşılığını alamıyor. Sektörde adil ücretlendirme ve mesleki saygı eksikliği var. Ancak yerelleştirme ve dijital içerik çevirileri gibi alanlarda büyük gelişim potansiyeli görüyorum.
+
+7. Sözlü çeviri deneyiminiz oldu mu? Olduysa bu deneyimin size katkısı ne oldu?
+Evet, birkaç küçük etkinlikte sözlü çeviri deneyimim oldu. Anlık düşünme ve hızlı tepki verme yeteneğimi geliştirdi. Ayrıca özgüven kazanmama çok yardımcı oldu.
+
+8. Çevirmenlik dışında size ilham veren, sizi geliştiren hobileriniz ya da günlük rutinleriniz var mı?
+Kitap okumak, yürüyüş yapmak ve yabancı diziler izlemek hem beni rahatlatıyor hem de dil yeteneklerimi canlı tutuyor. Ayrıca farklı kültürleri tanımak bana çeviri için yeni perspektifler kazandırıyor.
+
+9. İleride çevirmenlik dışında kendinizi görmek istediğiniz başka bir alan var mı?
+Eğitim ve dil danışmanlığı gibi alanlara da ilgim var. Belki ileride çevirmenlikle birlikte bu alanlara da yönelirim.
+
+10. Bundan 5 yıl öncesine gidebilme şansınız olsa, kendinize ne söylemek isterdiniz?
+“Emeğini küçümseme ve kendine güven” derdim. Gençken her işi kabul etmek zorundaymışız gibi hissediyoruz ama her zaman hakkımızı savunmamız gerekiyor.
+`,
+  },
+  {
+    id: 8,
+    cover:
+      "/blog/8-ceviriden-yerellestirmeye-uzanan-yolculuk-ebru-nilay-vural-anlatiyor.png",
+    title:
+      "Çeviriden Yerelleştirmeye Uzanan Yolculuk: Ebru Nilay Vural Anlatıyor",
+    description:
+      "Oyun yerelleştirme uzmanı Ebru Nilay Vural ile çeviri deneyimleri üzerine söyleşi.",
+    readTime: "9 minutes read",
+    content: `Dil becerileriyle farklı disiplinleri buluşturmak, çeviri mesleğinin belki de en heyecan verici yönlerinden biri. Bu dinamik yolculuk, çoğu zaman çevirmenin ilgi alanlarına ve keşiflerine göre şekilleniyor. Röportaj konuğumuz Ebru Nilay Vural, çeviriye üniversite yıllarında adım atmış; hukuk, ekonomi ve tıp gibi alanlarda edindiği deneyimlerin ardından, oyun yerelleştirme dünyasında kendine sağlam bir yer edinmiş bir isim. Hem serbest çevirmenlik hem de proje yöneticiliği yapan Vural, bu röportajda çeviriyle kurduğu bağı, yerelleştirme sürecindeki yaratıcı ve teknik zorlukları ve mesleğe yeni adım atacaklara önerilerini içtenlikle paylaşıyor. 
+ 
+1. Çeviriyle ne zaman tanıştınız? Şimdiye kadar çevirinin hangi alanlarında deneyim kazandınız? 
+Çeviri pratiğinin daha önceden bilincinde olsam da kendim çeviri yapmaya ilk olarak bölüme başladığım 2019 yılında başladım. İlk profesyonel deneyimim ise 2020 yılında hukuk çevirisi alanında oldu. Sonrasında hukuk, ekonomi, tıp, arkeoloji, alt yazı çevirisi ve video oyunu yerelleştirme alanlarında çalıştım. 
+
+2. Sizin için unutulmaz ve hayatınızı değiştiren bir çeviri projesi oldu mu? Varsa detaylarını paylaşabilir misiniz? 
+2021 yılında bağımsız bir geliştiriciyle iletişime geçerek ilk video oyunu yerelleştirme projeme başladım. Öncesinde profesyonel olarak ilerlemeyi düşündüğüm alan yazın çevirisi olmasına rağmen bu proje sayesinde tamamen video oyunu yerelleştirme alanına yöneldim. Sonrasında bağımsız geliştiricilerin yanı sıra profesyonel şirketlerde serbest yerelleştirme uzmanı olarak çalıştım. Şu anda ise bu alanda proje yöneticiliği yapıyorum. Mesleğimin temelini attığı için BAD END THEATER çevirisini bir mihenk taşı olarak gördüğümü söyleyebilirim. 
+
+3. Çeviri sürecinde hangi araçları (CAT Tools, sözlükler, yazılımlar) kullanıyorsunuz? 
+Çalıştığım alanda kullanılan yazılımlar tamamen müşterinin taleplerine bağlı şekilleniyor ancak ağırlıklı olarak MemoQ ve Trados gibi BDÇ araçlarıyla çalışıyoruz. Bunun dışında iş akışının takibi ve iletişim için kullandığımız bazı programlar da mevcut. 
+
+4. Geriye dönüp üniversite yıllarınıza bakacak olsanız “iyi ki yapmışım” veya “keşke yapmasaydım” dediğiniz şeyler var mı? 
+İyi ki yapmışım dediğim en önemli şey farklı çeviri alanlarında deneyim kazanmış olmak. Uzmanlık alanımı belirleme konusunda bana çok fayda sağladığını düşünüyorum. Bununla birlikte özellikle alt yazı çevirisi gibi alanlar da oyun yerelleştirme açısından elzem olduğu için onlarda deneyim kazanma fırsatı yakaladığım için mutluyum. 
+
+5. Video oyunları çevirmenliği yapmak isteyenlere ne gibi tavsiyelerde bulunursunuz? Sizce nereden başlamak gerekir? 
+Bunun standart bir girişi olmadığını söyleyebilirim. Bağımsız geliştiricilerden yana ben şanslı olsam da çoğu bütçe sıkıntısından dolayı dil desteği sağlamaya yanaşmıyor. Bununla birlikte Türk yerelleştirme pazarında hatırı sayılır şirketler var ve bunlarda serbest çevirmen olmak için tek ihtiyacınız yaratıcılık. Yerelleştirme sektöründe deneyimden ziyade yaratıcılık ve iş etiği ön plandadır. 
+Ayrıca iyi bir yerelleştirme uzmanı olmak için video oyunlarını oynamak şart olmasa da teknik çeviri kısmında bir oyuncu olmanın büyük avantaj sağladığını söyleyebilirim. Kendiniz oyun oynadığınız zaman elinizde referans olmasa da hangi metnin oyunun neresinde görüneceğini az çok kestirip ona göre hareket edebiliyorsunuz. Bir de çevirdiğiniz oyun türüne hâkim olduğunuzda nasıl bir üslup benimsemeniz gerektiğini sezebiliyorsunuz, bunlar da çevirinin kalitesini yükselten etmenler diyebilirim. 
+
+6. Video oyunları çevirisinde en çok zorlandığınız veya sizi en çok zorlayan öğeler neler oluyor? 
+Video oyunlarının en basit ve genel tanımı “eğlence amaçlı yazılımlar”dır. Bu çok yüzeysel bir tanımlama olsa da video oyunu yerelleştirme tanımı yaparken işi kolaylaştırır. Video oyunu yerelleştirme pratiğini, multimedya çevirisi ile yazılım yerelleştirmenin bir kesişimi olarak düşünebiliriz. Kısacası yaratıcı çeviri kadar teknik çeviri olduğu söylenebilir. Benim en zorlandığım kısımlar genelde teknik çeviri kısmı oluyor çünkü karakter sınırı gibi bir sorun ortaya çıkıyor ve bu sorun, genelde alt yazı çevirisindeki karakter sınırından daha kısıtlayıcı oluyor. 
+Bir diğer zorluk ise mizah unsurları, özellikle de dile özgü kelime oyunları. Bunları çözmek için bağlam ve beyin jimnastiği gerekiyor ancak zorluk çıkarmasına rağmen benim en keyif aldığım yanlarından biri olduğunu söyleyebilirim. 
+
+7. Oyun firmalarıyla veya projelerle çalışırken bağlam (context) veriliyor mu? Bu süreç sizin için nasıl işliyor? 
+Bu konuda gizlilik sözleşmemi ihlal etmemek adına çok detay veremeyeceğim ama projeden projeye çok değişiyor. Bazı projelerde oyunla ilgili yerelleştirme kitleri ve hatta oyunun kendisi tarafımıza iletilirken bazılarında ise hiçbir şey bilmeden ilerlemek zorunda kalabiliyoruz. Bu yüzden bağlam eksikliği kaynaklı çeviri “hata”ları ortaya çıksa da çoğu durumda bunlarla ilgili geriye dönük düzeltme yapma imkânımız oluyor. Tabii ki bol referanslı projelerde çalışmanın tadı bir başka oluyor ve çıkan işin kalitesi de aslında bunu yansıtıyor. 
+
+8. Türkiye’de oyun lokalizasyonu sektörünü nasıl değerlendiriyorsunuz? Sizce gelişime açık alanlar neler? 
+Şu anda pazarın büyük kısmını tutan şirketler olduğu gibi, yeni açılan bir sürü küçük bağımsız vendor da bulunuyor. Vendor’lar genelde bağımsız geliştiricilerin işlerini üstleniyorlar, özellikle bazılarının gelişimini ilgiyle takip ediyorum. 
+
+9. Çevirmenlik dışında sizi besleyen, ilham veren hobileriniz ve ilgi alanlarınız var mı? 
+Bu alanda çalışan biri olarak özellikle video oyunlarını ve ilgili haberleri tüketmek hoşuma gidiyor. Bununla birlikte her çeviri alanında olduğu gibi yerelleştirmede de dil bilgisi oldukça önemli bir yer tutuyor. Bu yüzden sıkça kitap, dergi ve gazete okumaya özen gösteriyorum. Arada bir TDK ve Dil Derneği gibi kurumların sitelerinde gezinip kendimi geliştirmeye çalışıyorum. Yaratıcılığımı diri tutmak adına farklı medya ürünleri tüketip popüler kültürden geri kalmamak da işimi kolaylaştırıyor. Film, dizi, çizgi roman gibi anaakım medya ürünleriyle ilgili referansları yakalayıp çevirilerimde kullanabilmek adına bunları da takip etmeye çalışıyorum. 
+ 
+10. Bundan 5 yıl öncesine gidebilme şansınız olsa, kendinize ne söylemek isterdiniz?
+Çok özür dileyerek bu soruyu pas geçiyorum :’)
+`,
+  },
+];

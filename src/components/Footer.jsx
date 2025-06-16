@@ -80,8 +80,7 @@ const Footer = () => {
         paddingBottom: "0",
         borderTop: "1px solid #E5E7EB",
         boxSizing: "border-box",
-        marginTop:"2169px",
-        marginLeft:"144px",
+        margin: "0 auto",
       }}
     >
       {/* Top Container */}
@@ -90,7 +89,7 @@ const Footer = () => {
           display: "flex",
           alignItems: "center",
           gap: "36px",
-          width: "1152px",
+          width: "100%",
           height: "152px",
           alignSelf: "stretch",
         }}
@@ -110,7 +109,16 @@ const Footer = () => {
           }}
         >
           {/* Logo ve Metin Container */}
-          <div style={{ display: 'flex', alignItems: 'center', gap: '0px', position: 'absolute', top: '0px', marginLeft: '-71px' }}>
+          <div
+            style={{
+              display: "flex",
+              alignItems: "center",
+              gap: "0px",
+              position: "absolute",
+              top: "0px",
+              marginLeft: "-71px",
+            }}
+          >
             {/* Logo */}
             <img
               src={Logo}
@@ -121,13 +129,15 @@ const Footer = () => {
               }}
             />
             {/* Beelinguals Metni */}
-            <span style={{
-              color: "#F9AA01",
-              fontSize: "28px",
-              fontWeight: "bold",
-              lineHeight: "32px",
-              marginLeft: '-60px'
-            }}>
+            <span
+              style={{
+                color: "#F9AA01",
+                fontSize: "28px",
+                fontWeight: "bold",
+                lineHeight: "32px",
+                marginLeft: "-60px",
+              }}
+            >
               Beelinguals
             </span>
           </div>
@@ -167,8 +177,10 @@ const Footer = () => {
               }}
             >
               Beelinguals ile dil öğrenme yolculuğunuza başlayın.
-              <br />Pratik alıştırmalar ve zengin kaynaklarla
-              <br />becerilerinizi hızla geliştirin.
+              <br />
+              Pratik alıştırmalar ve zengin kaynaklarla
+              <br />
+              becerilerinizi hızla geliştirin.
             </p>
           </div>
         </div>
@@ -216,68 +228,67 @@ const Footer = () => {
       </div>
 
       {/* Bottom Container */}
-<div
-  style={{
-    display: "flex",
-    padding: "32px 0px",
-    alignItems: "center",
-    gap: "12px",
-    width: "1152px",
-    alignSelf: "stretch",
-    borderTop: "1px solid #E5E7EB",
-  }}
->
-  <p
-    style={{
-      color: "var(--slate-500, #64748B)",
-      fontSize: "14px",
-      fontStyle: "normal",
-      fontWeight: "400",
-      lineHeight: "16px",
-      letterSpacing: "-0.084px",
-      margin: "0",
-    }}
-  >
-    ©2024 Virenet, All rights reserved.
-  </p>
-
-  <div
-    style={{
-      display: "flex",
-      padding: "6px",
-      alignItems: "center",
-      gap: "2px",
-      borderRadius: "8px",
-      border: "1px solid rgba(255, 255, 255, 0.06)",
-      backgroundColor: "#CBD5E1",
-      cursor:"pointer"
-    }}
-  >
-    <div
-      style={{
-        display: "flex",
-        padding: "0px 4px",
-        justifyContent: "center",
-        alignItems: "center",
-        gap: "10px",
-      }}
-    >
-      <p
+      <div
         style={{
-          color: "var(--text-strong, #FFF)",
-          fontSize: "14px",
-          fontStyle: "normal",
-          fontWeight: "500",
-          lineHeight: "20px",
-          margin: "0",
+          display: "flex",
+          padding: "32px 0px",
+          alignItems: "center",
+          gap: "12px",
+          width: "1152px",
+          alignSelf: "stretch",
+          borderTop: "1px solid #E5E7EB",
         }}
       >
-        Any help?
-      </p>
-    </div>
-  </div>
-</div>
+        <p
+          style={{
+            color: "var(--slate-500, #64748B)",
+            fontSize: "14px",
+            fontStyle: "normal",
+            fontWeight: "400",
+            lineHeight: "16px",
+            letterSpacing: "-0.084px",
+            margin: "0",
+          }}
+        >
+          ©2024 Virenet, All rights reserved.
+        </p>
 
+        <div
+          style={{
+            display: "flex",
+            padding: "6px",
+            alignItems: "center",
+            gap: "2px",
+            borderRadius: "8px",
+            border: "1px solid rgba(255, 255, 255, 0.06)",
+            backgroundColor: "#CBD5E1",
+            cursor: "pointer",
+          }}
+        >
+          <div
+            style={{
+              display: "flex",
+              padding: "0px 4px",
+              justifyContent: "center",
+              alignItems: "center",
+              gap: "10px",
+            }}
+          >
+            <p
+              style={{
+                color: "var(--text-strong, #FFF)",
+                fontSize: "14px",
+                fontStyle: "normal",
+                fontWeight: "500",
+                lineHeight: "20px",
+                margin: "0",
+              }}
+            >
+              Any help?
+            </p>
+          </div>
+        </div>
+      </div>
     </div>
   );
 };

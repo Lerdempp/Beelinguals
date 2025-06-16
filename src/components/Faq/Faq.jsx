@@ -10,10 +10,11 @@ const Faq = () => {
         flexDirection: "column",
         alignItems: "center",
         gap: "48px",
-        height: "706px",
-        top: "2247px",
-        left: "242px",
-        position: "absolute",
+        width: "1152px",
+        margin: "0 auto",
+        paddingTop: 60,
+        paddingBottom: 60,
+        boxSizing: "border-box",
       }}
     >
       <Header /> {/* Header component'ini burada kullanıyoruz */}

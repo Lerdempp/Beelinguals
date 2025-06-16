@@ -7,16 +7,14 @@ const Blog = () => {
     <div
       id="blog-section"
       style={{
-        position: "absolute",
-        top: "988px",
-        left: "50%",
-        transform: "translateX(-50%)",
         display: "flex",
         flexDirection: "column",
         alignItems: "center",
         gap: "48px",
-        width: "956px",
-        height: "1163px",
+        width: "1152px",
+        margin: "0 auto",
+        paddingTop: 60,
+        paddingBottom: 60,
         boxSizing: "border-box",
       }}
     >

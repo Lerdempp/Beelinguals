@@ -83,7 +83,8 @@ const SheetsPage = () => {
       "Technical Texts - Toothbrush User Guide.pdf",
       "Technical Texts - Water Filter User Guide I.pdf",
       "Technical Texts - Water Filter User Guide II.pdf",
-      "Technical Texts - Windows 10_ Quick User Guide.pdf"
+      "Technical Texts - Windows 10_ Quick User Guide.pdf",
+      "Technical Texts - Penne Rigate Recipe.pdf"
     ]
   }), []);
 
